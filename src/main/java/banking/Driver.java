@@ -1,4 +1,4 @@
-package account;
+package banking;
 
 public class Driver {
     
@@ -10,6 +10,6 @@ public class Driver {
         tom.transfer(100.0, sandy);
         sandy.withdraw(50.0);
         sandy.withdraw(600.0);
-        System.out.println(sandy.getBalance());
+        System.out.println("$" + sandy.getBalance());
     }
 }
